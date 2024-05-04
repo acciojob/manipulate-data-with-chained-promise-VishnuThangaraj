@@ -21,5 +21,5 @@ function filterOddAndMultiplyEven() {
 }
 filterOddAndMultiplyEven().then((result) => {
     const outputElement = document.getElementById('output');
-    outputElement.textContent = result.join(', '); // Display the result as a comma-separated string
+    outputElement.textContent = result.join(','); // Display the result as a comma-separated string
 });
