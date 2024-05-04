@@ -15,7 +15,7 @@ function filterOddAndMultiplyEven() {
         })
         .then((evenNumbers) => {
             // Multiply even numbers by 2
-            const multipliedNumbers = evenNumbers.map((num) => num * 2);
+            const multipliedNumbers = evenNumbers.map((num) => num * 1);
             return multipliedNumbers;
         });
 }
